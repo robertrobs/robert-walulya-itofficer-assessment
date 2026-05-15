@@ -19,6 +19,7 @@ public class TicketService {
         return ticketRepository.save(ticket);
     }
 
+    // all the created tickets will be retrieved and returned as a list. 
     public List<Ticket> getAllTickets() {
         return ticketRepository.findAll();
     }
