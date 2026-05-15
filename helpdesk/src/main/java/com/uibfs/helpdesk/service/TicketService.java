@@ -14,6 +14,7 @@ public class TicketService {
         this.ticketRepository = ticketRepository;
     }
 
+    //this is the function that will create a new ticket and save it to the database. it
     public Ticket createTicket(Ticket ticket) {
         return ticketRepository.save(ticket);
     }
