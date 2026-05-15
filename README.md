@@ -21,6 +21,8 @@ For my Database
 1. MySQL as my Relational database
 
 
+
+
 How to Run the Project
 
 1. clone the project file from https://github.com/robertrobs/robert-walulya-itofficer-assessment.git
@@ -47,6 +49,8 @@ API EndPoints
 2. // GET /api/tickets this will return all the tickets from the database
 3. // GET /api/tickets/email/{email} this returns all tickets of a given user identified by the email address given
 4. // PUT /api/tickets/{id}/status, this is for updating the ticket status
+
+
 
 Assumptions Made
 
