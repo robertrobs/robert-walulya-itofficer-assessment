@@ -41,10 +41,16 @@ How to Run the Project
 	npm start
 	The frontend will start at: http://localhost:3000
 
+
+API EndPoints 
+1. // POST /api/tickets this will create tickets into the database
+2. // GET /api/tickets this will return all the tickets from the database
+3. // GET /api/tickets/email/{email} this returns all tickets of a given user identified by the email address given
+4. // PUT /api/tickets/{id}/status, this is for updating the ticket status
+
 Assumptions Made
 
 1.	No authentication — The system does not implement login or user accounts. Any user can submit tickets and can update statuses.
 2.	Email as user identifier — Users identify themselves by email when checking their submitted tickets via the "My Tickets" page.
 3.	Single database instance — The application assumes MySQL is running locally on port `3306`.
-4.	Default ticket status — All newly submitted tickets default to `OPEN` status and `MEDIUM` priority unless the user selects otherwise.
 
