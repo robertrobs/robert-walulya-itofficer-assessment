@@ -29,6 +29,7 @@ public class TicketService {
         return ticketRepository.findByEmail(email);
     }
 
+    // this function will update the status of a ticket. it.
     public Ticket updateTicketStatus(Long id, Ticket.Status status) {
         Ticket ticket = ticketRepository.findById(id)
             .orElseThrow(() -> new RuntimeException("Ticket not found with id: " + id));

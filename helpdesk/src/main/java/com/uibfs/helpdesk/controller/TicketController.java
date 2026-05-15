@@ -31,7 +31,7 @@ public class TicketController {
         return ResponseEntity.ok(ticketService.getAllTickets());
     }
 
-    // GET /api/tickets/email/{email}
+    // GET /api/tickets/email/{email} (will fetch tickets by email address)
     @GetMapping("/email/{email}")
     public ResponseEntity<List<Ticket>> getTicketsByEmail(@PathVariable String email) {
         return ResponseEntity.ok(ticketService.getTicketsByEmail(email));
