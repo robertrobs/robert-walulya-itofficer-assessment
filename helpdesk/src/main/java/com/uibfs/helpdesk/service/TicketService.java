@@ -24,6 +24,7 @@ public class TicketService {
         return ticketRepository.findAll();
     }
 
+    // this function will retrieve a ticket by its id. 
     public List<Ticket> getTicketsByEmail(String email) {
         return ticketRepository.findByEmail(email);
     }
