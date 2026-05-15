@@ -6,6 +6,7 @@ import jakarta.validation.constraints.NotBlank;
 import lombok.*;
 import java.time.LocalDateTime;
 
+// this is my entity class for the ticket. it will be used to create the database table
 @Entity
 @Table(name = "tickets")
 @Data                   // this will help me generate getters, setters, toString, equals, hashCode
