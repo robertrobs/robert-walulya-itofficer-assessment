@@ -21,7 +21,7 @@ export default function MyTickets() {
       setError("Could not fetch tickets. Try again.");
     }
   };
-
+jknkdb
   return (
     <div style={{ padding: 20 }}>
       <h2>My Tickets</h2>
